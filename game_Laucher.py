@@ -8,12 +8,12 @@ import win32com.client
 import winsound  # Built-in sound module for Windows
 import threading
 
-# === CONFIG ===
-GAMES_FOLDER = r"C:\Users\cwkni\Game Laucher\Games"
-ICONS_FOLDER = r"C:\Users\cwkni\Game Laucher\Games\icons"
-FALLBACK_ICON_PATH = r"C:\Users\cwkni\Game Laucher\Games\icons\fallback.png" # Fallback image
-HOVER_SOUND_PATH = r"C:\Users\cwkni\Game Laucher\hover.wav"
-LAUNCH_SOUND_PATH = r"C:\Users\cwkni\Game Laucher\launch.wav"
+# === CONFIG ===   # All of theses should be something like C:Users\user\Launcher\games ETC. Check example image for more details
+GAMES_FOLDER = r""
+ICONS_FOLDER = r""
+FALLBACK_ICON_PATH = r"" # Fallback image
+HOVER_SOUND_PATH = r""
+LAUNCH_SOUND_PATH = r""
 
 # === UI SETUP ===
 ctk.set_appearance_mode("dark")
@@ -23,7 +23,7 @@ ctk.set_default_color_theme("blue")
 class GameLauncher(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("🎮 DeOptNo Game Launcher")
+        self.title("🎮 windows Game Launcher")
         self.geometry("900x750")
         self.resizable(False, False)
 
@@ -38,7 +38,7 @@ class GameLauncher(ctk.CTk):
         return [f for f in os.listdir(GAMES_FOLDER) if f.endswith(valid_exts)]
 
     def build_ui(self):
-        ctk.CTkLabel(self, text="🕹️ Game Launcher", font=ctk.CTkFont(size=26, weight="bold")).pack(pady=20)
+        ctk.CTkLabel(self, text="🕹️ Windows Game Launcher", font=ctk.CTkFont(size=26, weight="bold")).pack(pady=20)
 
         self.scroll_frame = ctk.CTkScrollableFrame(self, width=860, height=660)
         self.scroll_frame.pack(padx=20, pady=10)
