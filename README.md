@@ -24,9 +24,6 @@ Insert the directory path inside the quotation marks like this:
 
 Example:
 ```python
-ICONS_FOLDER = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\Icons"
-
-
 GAMES_FOLDER = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\"
 ICONS_FOLDER = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\Icons"
 FALLBACK_ICON_PATH = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\Icons\fallback.png"  # Fallback icon image
