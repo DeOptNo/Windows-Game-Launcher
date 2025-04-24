@@ -13,6 +13,7 @@ This is a custom game launcher I created in Python. It's easy to make your own v
 4. Add your game executable (.exe) files or Internet shortcuts into the "Games" folder.
 
 5. Within the "Games" folder, create another subfolder called "Icons".
+![image](https://github.com/user-attachments/assets/a86b1ddc-7f7e-4310-b52f-29e721e00b54)
 
 
 6. Open the Python file in Notepad to edit the directory paths for the files.
