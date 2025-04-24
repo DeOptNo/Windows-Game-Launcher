@@ -27,11 +27,11 @@ Example:
 ICONS_FOLDER = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\Icons"
 
 
-GAMES_FOLDER = r""
-ICONS_FOLDER = r""
-FALLBACK_ICON_PATH = r""  # Fallback icon image
-HOVER_SOUND_PATH = r""
-LAUNCH_SOUND_PATH = r""
+GAMES_FOLDER = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\"
+ICONS_FOLDER = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\Icons"
+FALLBACK_ICON_PATH = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\Icons\fallback.png"  # Fallback icon image
+HOVER_SOUND_PATH = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\hover.wav"
+LAUNCH_SOUND_PATH = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\launch.wav"
 ```
 
 6. Download the sound files and ensure they are named `hover.wav` or `launch.wav`; otherwise, they will not work.
