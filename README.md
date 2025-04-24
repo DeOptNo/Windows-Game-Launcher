@@ -7,12 +7,13 @@ This is a custom game launcher I created in Python. It's easy to make your own v
 1. Download the Python code file and create a folder in a location that is easy to remember and accessible (recommended locations: Documents, Desktop, or anywhere in your user directory).
 
 2. Inside this folder, create a subfolder called "Games".
+   ![image](https://github.com/user-attachments/assets/786b341e-aff9-4959-a880-c665fc5d1ca4)
 
-3. Add your game executable (.exe) files or Internet shortcuts into the "Games" folder.
 
-4. Within the "Games" folder, create another subfolder called "Icons".
+4. Add your game executable (.exe) files or Internet shortcuts into the "Games" folder.
 
-5. Add the example icon image into the "Icons" folder.
+5. Within the "Games" folder, create another subfolder called "Icons".
+
 
 6. Open the Python file in Notepad to edit the directory paths for the files.
 
@@ -32,7 +33,7 @@ HOVER_SOUND_PATH = r""
 LAUNCH_SOUND_PATH = r""
 ```
 
-7. Download the sound files and ensure they are named `hover.wav` or `launch.wav`; otherwise, they will not work.
+6. Download the sound files and ensure they are named `hover.wav` or `launch.wav`; otherwise, they will not work.
 
 8. After updating the directory paths, if double-clicking the .py file does not launch the program and you have Python installed from the Microsoft Store, download Visual Studio Code and the Python extension. You will need to install the required dependencies and packages for it to run properly. (I know this because it worked for my test subject, a friend of mine.)
 
