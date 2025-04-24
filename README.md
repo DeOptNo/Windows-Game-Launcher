@@ -1,37 +1,39 @@
-**IT IS HIGHLY RECOMMENDED TO DOWNLOAD THE LATEST PYTHON FROM THE MICROSOFT STORE!!!** **You also may need Visual Code if you can't edit the Python with Windows Notepad.**
-# Windows-Game-Launcher
-This is a custom Game launcher I made in Python. It's simple to make your own, with your own games. 
+**IT IS HIGHLY RECOMMENDED TO DOWNLOAD THE LATEST VERSION OF PYTHON FROM THE MICROSOFT STORE!** **You may also need Visual Studio Code if you cannot edit the Python code with Windows Notepad.**
 
+# Windows Game Launcher
+This is a custom game launcher I created in Python. It's easy to make your own version with your own games.
 
-**_How to Add your Games Into the Launcher_**
-1. Add download the python code file,and make a folder somewhere you can remember, and is easy to type the directory path. (examples of areas to put it: Documents, desktop, somewhere in your users 
+**_How to Add Your Games to the Launcher_**
+1. Download the Python code file and create a folder in a location that is easy to remember and accessible (recommended locations: Documents, Desktop, or anywhere in your user directory).
 
-2.In the folder, add a folder called "Games"
+2. Inside this folder, create a subfolder called "Games".
 
-3.Add the game (.exe) or Internet shortcut/shortcut file into the 
+3. Add your game executable (.exe) files or Internet shortcuts into the "Games" folder.
 
-4.In the Games folder, add a folder called " Icons " 
+4. Within the "Games" folder, create another subfolder called "Icons".
 
-5. Add the example icon image into the folder
+5. Add the example icon image into the "Icons" folder.
 
-6. Go to the python and open it with notepad, so you can change the directory of the files.
+6. Open the Python file in Notepad to edit the directory paths for the files.
 
-**Things to change:**
-Insert the directory like this inside the quotations: C:\Where\ever\the\files\are\in\your\pc\drive
+**Things to Change:**
+Insert the directory path inside the quotation marks like this: 
+`C:\Where\ever\the\files\are\in\your\pc\drive`
 
-Example: 
+Example:
+```python
 ICONS_FOLDER = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\Icons"
-     
-     
-     GAMES_FOLDER = r""
-     ICONS_FOLDER = r""
-     FALLBACK_ICON_PATH = r"" # Fallback image
-     HOVER_SOUND_PATH = r""
-     LAUNCH_SOUND_PATH = r"
 
-8. Download the sound Files, and make sure they are named, hover.wav , or launch.wav , or they wont work.
 
-9. After changing the directory of everything, if nothing works after double clicking the .py file, and you have the python downloaded from te Microsoft store, download Visual Code, and the Python extension, as you need to install the dependencies and packages for it to run. ( I know this because after I did this with my test subject (my friend } it worked.)
+GAMES_FOLDER = r""
+ICONS_FOLDER = r""
+FALLBACK_ICON_PATH = r""  # Fallback icon image
+HOVER_SOUND_PATH = r""
+LAUNCH_SOUND_PATH = r""
+```
 
- ** Coming soon, I forgot what the packages are because it's a few.**
-   
+7. Download the sound files and ensure they are named `hover.wav` or `launch.wav`; otherwise, they will not work.
+
+8. After updating the directory paths, if double-clicking the .py file does not launch the program and you have Python installed from the Microsoft Store, download Visual Studio Code and the Python extension. You will need to install the required dependencies and packages for it to run properly. (I know this because it worked for my test subject, a friend of mine.)
+
+**Coming soon: I will provide a list of necessary packages once I recall them, as there are a few.**
