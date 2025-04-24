@@ -24,10 +24,10 @@ ICONS_FOLDER = r"C:\ThisPC\Users\me\Documents\GameLauncher\Games\Icons"
      
      
      GAMES_FOLDER = r""
-ICONS_FOLDER = r""
-FALLBACK_ICON_PATH = r"" # Fallback image
-HOVER_SOUND_PATH = r""
-LAUNCH_SOUND_PATH = r"
+     ICONS_FOLDER = r""
+     FALLBACK_ICON_PATH = r"" # Fallback image
+     HOVER_SOUND_PATH = r""
+     LAUNCH_SOUND_PATH = r"
 
 8. Download the sound Files, and make sure they are named, hover.wav , or launch.wav , or they wont work.
 
